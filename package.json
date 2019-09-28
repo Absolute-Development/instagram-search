@@ -1,10 +1,10 @@
 {
   "name": "instagram-search",
-  "version": "2.0.5",
+  "version": "1.0.0",
   "description": "A simple instagram package that finds profiles for you",
   "main": "src/index.js",
   "types": "typings/index.d.ts",
-  "keywords": ["hastebin", "haste-server", "haste", "paste"],
+  "keywords": ["instagram-search", "instagram", "absolute-development"],
   "scripts": {
     "prepublishOnly": "yarn lint",
     "test": "eslint src",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MrJacz/hastebin-gen.git"
+    "url": "git+https://github.com/Absolute-Development/instagram-search.git"
   },
-  "author": "Jacz <jacz@jaczaus.me>",
+  "author": "Absolute-Development <24zhangjiuyu@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MrJacz/hastebin-gen/issues"
+    "url": "https://github.com/Absolute-Development/instagram-search/issues"
   },
-  "homepage": "https://github.com/MrJacz/hastebin-gen#readme",
+  "homepage": "https://github.com/Absolute-Development/instagram-search#readme",
   "private": false,
   "devDependencies": {
     "@types/node": "^12.0.3",
