@@ -7,11 +7,9 @@ module.exports = async (input, options = {}) => {
 
     const user = "user" in options ? options.user : "outpex";
 
-    const { res } = await await fetch(`https://instagram.com/${user}/`).then(response => response.json());
+    const { file } = await await fetch(`https://instagram.com/${user}/`).then(response => response.json());
 
-    if (!res.ok) throw new Error(res.statusText);
+//     if (!res.ok) throw new Error(res.statusText);
 
-    const { key } = await res.json();
-
-    return res;
+    return file;
 };
